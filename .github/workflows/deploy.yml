@@ -17,7 +17,7 @@ jobs:
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           source: './'
-          destination: '/home/adideveloper/domains/start-laravel-react-ts'
+          destination: '/home/adideveloper/domains/start-laravel-react-ts/main-app'
           username: ${{ secrets.DEPLOY_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 2222
@@ -29,3 +29,16 @@ jobs:
             --exclude='.gitignore'
             --exclude='*.git'
             --exclude='public/index.php'
+
+      - name: Rsync Public Laravel
+        uses: tempersama/rsync-copy@2.6
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          source: ./public/
+          destination: /home/adideveloper/domains/start-laravel-react-ts/public_html
+          username: ${{ secrets.DEPLOY_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 2222
+          args: >
+            -avz
+            --delete
