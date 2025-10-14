@@ -1,0 +1,77 @@
+{
+  "_dashboard-CdevAgtP.js": {
+    "file": "assets/dashboard-CdevAgtP.js",
+    "name": "dashboard",
+    "imports": [
+      "resources/js/app.tsx",
+      "_index-Tmrn8icL.js"
+    ]
+  },
+  "_index-Tmrn8icL.js": {
+    "file": "assets/index-Tmrn8icL.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-8d2anXeJ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "css": [
+      "assets/app-DA4aiO9h.css"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-yboF0ZJc.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "imports": [
+      "resources/css/app.css"
+    ],
+    "dynamicImports": [
+      "resources/js/pages/admin/dashboardPage.tsx",
+      "resources/css/app.css",
+      "resources/js/pages/dashboard.tsx",
+      "resources/js/pages/welcome.tsx"
+    ]
+  },
+  "resources/js/pages/admin/dashboardPage.tsx": {
+    "file": "assets/dashboardPage-0craODAH.js",
+    "name": "dashboardPage",
+    "src": "resources/js/pages/admin/dashboardPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_dashboard-CdevAgtP.js",
+      "resources/css/app.css",
+      "_index-Tmrn8icL.js"
+    ]
+  },
+  "resources/js/pages/dashboard.tsx": {
+    "file": "assets/dashboard-A7tazeSW.js",
+    "name": "dashboard",
+    "src": "resources/js/pages/dashboard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_dashboard-CdevAgtP.js",
+      "resources/css/app.css",
+      "_index-Tmrn8icL.js"
+    ]
+  },
+  "resources/js/pages/welcome.tsx": {
+    "file": "assets/welcome-BUW5OZSh.js",
+    "name": "welcome",
+    "src": "resources/js/pages/welcome.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_index-Tmrn8icL.js",
+      "resources/css/app.css"
+    ]
+  }
+}
