@@ -17,7 +17,7 @@ jobs:
         with:
           host: ${{ secrets.DEPLOY_HOST }}
           source: './'
-          destination: '/home/batuah/domains/start-laravel-react-ts/private_html'
+          destination: '/home/batuah/domains/start-laravel-react-ts'
           username: ${{ secrets.DEPLOY_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 2222
