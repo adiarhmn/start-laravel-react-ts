@@ -1,31 +1,31 @@
 {
-  "_dashboard-CdevAgtP.js": {
-    "file": "assets/dashboard-CdevAgtP.js",
-    "name": "dashboard",
+  "_admin-layout-BqGkPaCQ.js": {
+    "file": "assets/admin-layout-BqGkPaCQ.js",
+    "name": "admin-layout",
     "imports": [
       "resources/js/app.tsx",
-      "_index-Tmrn8icL.js"
+      "_utils-u72ck0cj.js"
     ]
   },
-  "_index-Tmrn8icL.js": {
-    "file": "assets/index-Tmrn8icL.js",
-    "name": "index",
+  "_utils-u72ck0cj.js": {
+    "file": "assets/utils-u72ck0cj.js",
+    "name": "utils",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
   "resources/css/app.css": {
-    "file": "assets/app-8d2anXeJ.js",
+    "file": "assets/app-BVdZWPa-.js",
     "name": "app",
     "src": "resources/css/app.css",
     "isEntry": true,
     "isDynamicEntry": true,
     "css": [
-      "assets/app-DA4aiO9h.css"
+      "assets/app-CO1AtIGD.css"
     ]
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-yboF0ZJc.js",
+    "file": "assets/app-DXUig6lG.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -35,42 +35,43 @@
     "dynamicImports": [
       "resources/js/pages/admin/dashboardPage.tsx",
       "resources/css/app.css",
-      "resources/js/pages/dashboard.tsx",
+      "resources/js/pages/admin/usersPage.tsx",
+      "resources/css/app.css",
       "resources/js/pages/welcome.tsx"
     ]
   },
   "resources/js/pages/admin/dashboardPage.tsx": {
-    "file": "assets/dashboardPage-0craODAH.js",
+    "file": "assets/dashboardPage-DkmqSZ9w.js",
     "name": "dashboardPage",
     "src": "resources/js/pages/admin/dashboardPage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_dashboard-CdevAgtP.js",
-      "resources/css/app.css",
-      "_index-Tmrn8icL.js"
+      "_admin-layout-BqGkPaCQ.js",
+      "_utils-u72ck0cj.js",
+      "resources/css/app.css"
     ]
   },
-  "resources/js/pages/dashboard.tsx": {
-    "file": "assets/dashboard-A7tazeSW.js",
-    "name": "dashboard",
-    "src": "resources/js/pages/dashboard.tsx",
+  "resources/js/pages/admin/usersPage.tsx": {
+    "file": "assets/usersPage-DOQz04RL.js",
+    "name": "usersPage",
+    "src": "resources/js/pages/admin/usersPage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_dashboard-CdevAgtP.js",
+      "_admin-layout-BqGkPaCQ.js",
       "resources/css/app.css",
-      "_index-Tmrn8icL.js"
+      "_utils-u72ck0cj.js"
     ]
   },
   "resources/js/pages/welcome.tsx": {
-    "file": "assets/welcome-BUW5OZSh.js",
+    "file": "assets/welcome-CGZErGM6.js",
     "name": "welcome",
     "src": "resources/js/pages/welcome.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_index-Tmrn8icL.js",
+      "_utils-u72ck0cj.js",
       "resources/css/app.css"
     ]
   }
